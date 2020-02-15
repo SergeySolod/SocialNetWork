@@ -8,7 +8,7 @@ import Dialogs from './pages/dialogs/dialogs'
 import Login from './pages/Login'
 import {connect} from 'react-redux'
 import {initializeApp} from "./redux/reducers/App-reducer";
-import {getInitialized} from "./redux/selectors/App-reducer";
+import {getInitialized} from "./redux/selectors/App-selector";
 import {compose} from "redux";
 import Preloader from "./components/Preloader";
 

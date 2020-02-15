@@ -15,7 +15,7 @@ import {
     totalUsersCount,
     getFollowingInProgress,
     getCurrentPage,
-} from "../../redux/selectors/Users-reducer";
+} from "../../redux/selectors/Users-selector";
 import Preloader from './../../components/Preloader'
 import Paginator from './../../components/Pagination'
 import {compose} from "redux";

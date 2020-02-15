@@ -2,8 +2,8 @@ import React from 'react'
 import {connect} from 'react-redux'
 import {Field, reduxForm} from "redux-form";
 
-import {sendMessage} from '../../redux/reducers/dialogs-reduser'
-import {getDialogs} from '../../redux/selectors/dialogs-reduser'
+import {sendMessage} from '../../redux/reducers/Dialogs-reduser'
+import {getDialogs} from '../../redux/selectors/Dialogs-selector'
 import {NavLink} from "react-router-dom";
 import {Input} from "../../components/FormsControl";
 import {maxLengthCreator, required} from "../../utils/validators/validators";

@@ -2,7 +2,7 @@ import React from 'react';
 import {Field, reduxForm} from "redux-form";
 import {connect} from 'react-redux'
 import {login} from "../redux/reducers/Auth-reducer";
-import {getAuth, reqCaptchaUrl} from "../redux/selectors/Auth-reducer";
+import {getAuth, reqCaptchaUrl} from "../redux/selectors/Auth-selector";
 import {Redirect} from "react-router-dom";
 import {Input} from "../components/FormsControl";
 import {required} from '../utils/validators/validators'

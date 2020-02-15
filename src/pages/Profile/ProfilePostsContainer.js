@@ -9,7 +9,7 @@ import {
 import {
     getProfile,
     getProfilePosts
-} from "../../redux/selectors/Profile-reducer";
+} from "../../redux/selectors/Profile-selector";
 
 
 const mapStateToProps = (state) => {

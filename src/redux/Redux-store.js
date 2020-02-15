@@ -6,7 +6,7 @@ import UsersReducer from './reducers/Users-reducer'
 import ProfileReducer from './reducers/Profile-reducer'
 import AuthReducer from './reducers/Auth-reducer'
 import AppReducer from "./reducers/App-reducer";
-import dialogsReduser from "./reducers/dialogs-reduser";
+import dialogsReduser from "./reducers/Dialogs-reduser";
 
 
 let reducers = combineReducers({

@@ -12,10 +12,10 @@ import {
 import {
     getProfile,
     getStatus
-} from "../../redux/selectors/Profile-reducer";
+} from "../../redux/selectors/Profile-selector";
 import {
     getuserId
-} from "../../redux/selectors/Auth-reducer";
+} from "../../redux/selectors/Auth-selector";
 import Profile from "./Profile";
 import ProfilePostsContainer from "./ProfilePostsContainer";
 import {compose} from "redux";
